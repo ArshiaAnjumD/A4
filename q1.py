@@ -1,5 +1,5 @@
 class DigitalWallet:
-    def _init_(self, name, balance, daily_limit):
+    def __init__(self, name, balance, daily_limit):
         self.name = name
         self.balance = balance
         self.daily_limit = daily_limit
